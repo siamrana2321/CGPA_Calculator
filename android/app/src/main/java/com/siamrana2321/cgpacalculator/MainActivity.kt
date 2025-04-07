@@ -1,4 +1,4 @@
-package com.cgpacalculator
+package com.siamrana2321.cgpacalculator
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

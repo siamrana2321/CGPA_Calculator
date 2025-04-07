@@ -1,0 +1,54 @@
+HOW TO BUILD AND DOWNLOAD YOUR CGPA CALCULATOR APK
+
+EASIEST METHOD: Build directly from Expo Dashboard
+-------------------------------------------------
+1. Visit https://expo.dev/ and sign in with your account (siamrana2321)
+2. Go to your project: https://expo.dev/accounts/siamrana2321/projects/cgpa-calculator
+3. Click "Build" in the left sidebar
+4. Click "Create new build"
+5. Select "Android"
+6. Choose "APK (.apk)" as the build type
+7. Select "apk" profile (we've created this specifically for APK builds)
+8. Click "Create build"
+9. Wait for the build to complete (5-10 minutes)
+10. Download the APK by clicking the "Download" button
+
+TROUBLESHOOTING TIPS:
+- If the build fails, check the logs by clicking on the build and examining each phase
+- Make sure your React version is 18.2.0 (which we've already updated) to match React Native's requirements
+- Try creating a new build with different profiles ("preview" or "apk")
+- If all else fails, you can use Expo Go to test your app without building an APK
+
+For direct link to builds page:
+https://expo.dev/accounts/siamrana2321/projects/cgpa-calculator/builds
+
+Method 2: Using Command Prompt (Not PowerShell)
+----------------------------------------------
+1. Open Command Prompt (cmd.exe, NOT PowerShell)
+2. Navigate to your project folder:
+   cd D:\Work\Projects\CGPA Calculator App\CGPACalculator
+3. Run the build command:
+   npx eas build -p android --profile preview
+4. Follow the link provided in the output to download your APK
+
+Method 3: Using Expo Go
+----------------------
+1. Run the Expo development server:
+   npx expo start
+2. Install Expo Go on your Android device
+3. Scan the QR code with the Expo Go app
+4. Test your app directly on your device
+
+Your app is already configured for APK builds with this eas.json configuration:
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk",
+        "withoutCredentials": true
+      }
+    }
+  }
+}
+
+If you continue to have issues, please contact Expo support at https://expo.dev/support 

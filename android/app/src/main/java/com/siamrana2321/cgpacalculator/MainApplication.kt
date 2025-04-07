@@ -1,4 +1,4 @@
-package com.cgpacalculator
+package com.siamrana2321.cgpacalculator
 
 import android.app.Application
 import com.facebook.react.PackageList

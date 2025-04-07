@@ -2,8 +2,12 @@
  * @format
  */
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
+import 'expo/AppEntry';
 
-AppRegistry.registerComponent(appName, () => App);
+// Set up global error handling for debugging
+if (__DEV__) {
+  global.ErrorUtils.setGlobalHandler((error, isFatal) => {
+    console.error('Global error caught:', error);
+    // We could add more sophisticated error handling here in a production app
+  });
+}

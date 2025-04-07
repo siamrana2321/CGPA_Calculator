@@ -1,0 +1,44 @@
+{
+  "name": "CGPACalculator",
+  "displayName": "CGPACalculator",
+  "expo": {
+    "name": "CGPA Calculator",
+    "slug": "cgpa-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.siamrana2321.cgpacalculator"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.siamrana2321.cgpacalculator",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "sdkVersion": "52.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "ab0e3ea3-bae5-4ea8-b5ec-652131187c03"
+      }
+    }
+  }
+} 
