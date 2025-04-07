@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CGPA Calculator App
 
 A React Native mobile application that helps students calculate and track their GPA and CGPA across multiple semesters.
@@ -97,3 +98,6 @@ A React Native mobile application that helps students calculate and track their 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+=======
+# CGPA_Calculator
+>>>>>>> 4d8dfe4d3614133ac108c2f21711e219436cc8df
